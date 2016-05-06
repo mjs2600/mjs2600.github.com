@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Blog &lt; /dev/random</title>
+  <subtitle>My Personal Blog</subtitle>
+  <id>https://mjs2600.github.io</id>
+  <link href="https://mjs2600.github.io"/>
+  <link href="https://mjs2600.github.io/feed.xml" rel="self"/>
+  <updated>2014-03-16T14:51:51-04:00</updated>
+  <author>
+    <name>Michael Simpson</name>
+  </author>
+  <entry>
+    <title>Elixir Pipes</title>
+    <link rel="alternate" href="https://mjs2600.github.io/2014/03/16/elixir-pipes/"/>
+    <id>https://mjs2600.github.io/2014/03/16/elixir-pipes/</id>
+    <published>2014-03-16T14:51:51-04:00</published>
+    <updated>2016-05-06T09:58:47-04:00</updated>
+    <author>
+      <name>Michael Simpson</name>
+    </author>
+    <summary type="html">This is an awesome talk by Bruce Tate on Elixir&amp;rsquo;s pipeline operator. He also goes into macros and how to extend the pipeline operator.
+
+
+</summary>
+  </entry>
+  <entry>
+    <title>Introduction</title>
+    <link rel="alternate" href="https://mjs2600.github.io/2014/03/16/introduction/"/>
+    <id>https://mjs2600.github.io/2014/03/16/introduction/</id>
+    <published>2014-03-16T11:21:13-04:00</published>
+    <updated>2016-05-06T09:58:47-04:00</updated>
+    <author>
+      <name>Michael Simpson</name>
+    </author>
+    <summary type="html">In this blog I plan to share interesting things that I find. Given my interests this will probably be limited to:
+
+
+Logic
+Programming
+Emacs
+Math
+Puzzles
+Politics
+My Family
+
+
+Although, I’ll probably also post links to interesting things that I find on</summary>
+  </entry>
+</feed>
