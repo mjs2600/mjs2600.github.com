@@ -1,12 +1,14 @@
+# -*- coding: utf-8 -*-
 ###
 # middleman-casper configuration
 ###
 
 config[:casper] = {
   blog: {
-    url: 'http://www.example.com',
+    url: 'https://mjs2600.github.io',
     name: 'Blog < /dev/random',
-    description: 'Makes developing websites simple.',
+    # description: 'Y = λf .(λ x.f (x x)) (λ x.f (x x))',
+    description: "My Personal Blog",
     date_format: '%d %B %Y',
     navigation: true,
     logo: nil # Optional
@@ -113,8 +115,9 @@ activate :directory_indexes
 set :haml, { ugly: true }
 set :markdown_engine, :redcarpet
 set :markdown, fenced_code_blocks: true, smartypants: true, footnotes: true,
-  link_attributes: { rel: 'nofollow' }, tables: true
-activate :syntax, line_numbers: false
+               link_attributes: { rel: 'nofollow' }, tables: true
+
+activate :syntax, inline_theme: 'github'
 
 # Middleman-Sprockets - https://github.com/middleman/middleman-sprockets
 activate :sprockets

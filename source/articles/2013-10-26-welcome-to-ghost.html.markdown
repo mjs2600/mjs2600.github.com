@@ -3,6 +3,7 @@ title: Welcome to Ghost
 date: 2013-10-26
 tags: Getting Started
 layout: post
+published: false
 ---
 
 You're in! Nice. We've put together a little post to introduce you to the Ghost
@@ -58,11 +59,12 @@ Got a streak of geek? We've got you covered there, too. You can write inline
 `<code>` blocks really easily with back ticks. Want to show off something more
 comprehensive? 4 spaces of indentation gets you there.
 
-```
-awesome-thing {
-  display: block;
-  width: 100%;
-}
+```elixir
+  defmodule Foo do
+    def bar do
+      IO.puts "Hello, World!"
+    end
+  end
 ```
 
 ## Ready for a Break?
